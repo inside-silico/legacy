@@ -31,8 +31,6 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@localhost:3307/{db}"
                               pw="",
                               db=""))
 
-#conn = pymysql.connect(user='TGamhG3wp8',password='cULXsVcIrI', db='TGamhG3wp8', host='remotemysql.com',port=3306)
-#engine = create_engine('mysql+pymysql://TGamhG3wp8:cULXsVcIrI@remotemysql.com/TGamhG3wp8')
 
 oBonos2 = ['AE38D-48hs','AL29D-48hs','AL30D-48hs','AL35D-48hs','AL41D-48hs','GD29D-48hs','GD30D-48hs','GD35D-48hs','GD38D-48hs','GD41D-48hs','GD46D-48hs']
 tickerUSD_dF = pd.DataFrame({'symbol' : oBonos2}, columns=["symbol","bid", "ask", "last"])
