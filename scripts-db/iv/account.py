@@ -1,0 +1,4 @@
+host = ""
+dni = ""
+usr = ""
+pas = " "
